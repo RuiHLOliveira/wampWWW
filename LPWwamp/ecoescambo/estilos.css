@@ -1,0 +1,102 @@
+/* css para site geral */
+div.meio_do_site{
+	border-radius:5px;
+	width:70%;
+	min-width:1200px;
+	/* background-color: #EEEEEE; */
+	margin-left: auto;
+    margin-right: auto;
+}
+div.principal{
+	background-color: #99FF99;
+	margin-left: auto;
+    margin-right: auto;
+	min-height: 100px;
+	height: auto;
+	width:100%;
+	float:left;
+	border-radius:5px;
+	}
+div.link_registro{
+	background-color: #88FF88;
+	margin-left:50px;
+	margin-top:10px;
+	padding-top:3px;
+	padding-left:7px;
+	padding-right:7px;
+	padding-bottom:5px;
+	height: auto;
+	width:115px;
+	border-radius:5px;
+	font-family: "Arial";
+	float:left;
+}
+div.div_reguladora {
+	/* Esta div foi criada com o fim de posicionar 
+	os botões "Entrar" e "Catálogo" sem uso de <br />
+	no html.
+	Ela cria um bloco de largura suficiente para impedir que
+	o bloco float do segundo botão fique na mesma linha.*/
+	width:60%;
+	float:left;
+}
+img.logo_ecoescambo{
+	/* background-color: #CCCCCC; */
+	width: 35%;
+	min-width: 200px;
+	float: left;
+}
+/* css para página de login e cadastro */
+div.form_box{
+	background-color: #008800;
+	margin-left: 20px;
+    margin-top: 20px;
+	padding: 20px;
+	float:left;
+	border-radius:5px;
+	font-family: "Arial";
+	font-size:16px;
+	text-align: center;
+	}
+div.form_text{
+	margin-left: 5px;
+    margin-top: 5px;
+	float:left;
+	text-align: right;
+	line-height: 140%;
+	}
+div.form_field{
+	margin-left: 5px;
+    margin-top: 5px;
+	height: auto;
+	width: auto;
+	float:left;
+	}
+/* css para os anuncios */
+div.imagem_teste{
+	/* background-color: #CCAA00; */
+}
+img.imagem_teste{
+	display: block;
+	/* background-color: #FFFF00; */
+	width: 40%;
+	min-width: 100px;
+	margin-left: auto;
+    margin-right: auto;
+}
+div.produto_teste{
+	/* background-color: #CC0055; */
+	min-width: 150px;
+	width: 18%;
+	min-height: 200px;
+	height: 20%;
+	float:left;
+	margin:5px;
+	border-radius:15px;
+	border-style:double;
+}
+div.texto_teste{
+	font-family: "Arial";
+	font-size:16px;
+	text-align: center;
+}

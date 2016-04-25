@@ -1,0 +1,11 @@
+.TituloCampo {
+    float:left;
+    line-height: 143%;
+    text-align: right;
+}
+.PreencheCampo{
+    float:left;
+}
+.body {
+    /*background-color:red;*/
+}

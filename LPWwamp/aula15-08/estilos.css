@@ -1,0 +1,9 @@
+div.classe1 {
+	text-decoration:line-through;
+}
+div.classe2 {
+	color: #FF0000;
+}
+div{
+	text-decoration:overline;
+}

@@ -1,0 +1,11 @@
+<!--
+Modularização do menu de Autenticação do sistema.
+1. Requere as definições de raiz necessárias.
+2. Exibe 3 botões para funcionalizades de login, cadastro e login administrativo.
+-->
+<?php require_once ("../raiz.php"); ?>
+<div>
+    <a href="/<?php echo host; ?>/view/login.view.php"><input type="button" value="LOGIN"></a>
+    <a href="/<?php echo host; ?>/view/cadastro.view.php"><input type="button" value="CADASTRAR"></a>
+    <a href="/<?php echo host; ?>/teste.php"><input type="button" value="ADMIN"></a>
+</div>    
