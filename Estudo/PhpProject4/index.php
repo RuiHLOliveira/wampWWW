@@ -24,17 +24,22 @@ if ($data < 12) {
     <body>
         <?php
         if ($logado) {
-            echo "<span>".$saudacao.",".$_SESSION["usuario"]."</span>";
+            echo "<span>".$saudacao.", ".$_SESSION["usuario"]."</span>".
+            "<form method='get' action='encerrarSessao.php'>".
+            "<input type='submit' value='Sair'></form>";
         } else {
             if (isset($msgErro)) {
-            echo "<p style='color: red'>".$msgErro."</p>";
-        } ?>
+                echo "<p style='color: red'>".$msgErro."</p>";
+            } ?>
+        
         <form method="post" action="abrirSessao.php">
             Login: <input type="text" name="login" required><br>
             Senha: <input type="password" name="senha" required><br>
             <input type="submit" value="Entrar">
         </form>
-        <?php }
+        
+        <?php
+        }
         require_once("rodape.html");
         ?>
         

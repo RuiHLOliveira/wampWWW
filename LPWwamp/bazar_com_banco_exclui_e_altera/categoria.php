@@ -60,7 +60,10 @@
 						<button type="submit">excluir</button>
 						</form>
 
-						<form action="form_altera_categoria.php" method="get"><input type="hidden" name="id" value="<?php echo $categoria["cod_categoria"]; ?>"><input type="hidden" name="descricao" value="<?php echo $categoria["descricao"]; ?>"><button type="submit">alterar</button></form>
+						<form action="form_altera_categoria.php" method="get">
+							<input type="hidden" name="id" value="<?php echo $categoria["cod_categoria"]; ?>">
+							<input type="hidden" name="descricao" value="<?php echo $categoria["descricao"]; ?>">
+							<button type="submit">alterar</button></form>
 					</td>
 				</tr>
 				<?php
