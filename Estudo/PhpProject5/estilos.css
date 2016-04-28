@@ -1,0 +1,10 @@
+span.negrito {
+    font-weight: bold;
+}
+span.italico {
+    font-style: italic;
+}
+span.sublinhado {
+    text-decoration: underline;
+}
+
